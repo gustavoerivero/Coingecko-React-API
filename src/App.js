@@ -16,7 +16,7 @@ function App() {
 
   useEffect(() => {
     getData()
-  }, [])
+  })
 
   return (
     <div className='container'>
@@ -37,7 +37,7 @@ function App() {
           onChange={e => setSearch(e.target.value)}
         />
 
-        <TableCoins coins={coins} search={search} />
+       <TableCoins coins={coins} search={search} />
 
       </div>
     </div>
