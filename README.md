@@ -1,70 +1,89 @@
-# Getting Started with Create React App
+# Coingecko React API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<table>
+    <tr>
+        <!-- Do not translate this table -->
+        <td><a href="./README.md"> English </a></td>
+        <td><a href="./README.ES.md"> Spanish </a></td>
+    </tr>
+</table>
 
-## Available Scripts
+_React Application that provides the 250 cryptos in trend. The application also allows conversion calculations between cryptos._
 
-In the project directory, you can run:
+### Pre-requisites 📋
 
-### `yarn start`
+* Latest stable version of [Node.js](https://nodejs.org/en/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Or, failing that
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* Latest stable version of [Yarn](https://yarnpkg.com/)
 
-### `yarn test`
+* For the project [Visual Studio Code](https://code.visualstudio.com/) was used as text editor for the frontend, but [Visual Studio Code](https://code.visualstudio.com/) can be used for the frontend. 
+frontend development, but another text editor can be used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Installation 🔧
 
-### `yarn build`
+_To begin, we proceed with the download of the repository.To do this, open the console, go to the folder in which you want to save the project and execute the following command:_
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/gustavoerivero/Coingecko-React-API.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+_Then go to the cloned folder in the "Coingecko React API" repository._
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_For a Windows Operating System, with the command:_
 
-### `yarn eject`
+```
+cd Coingecko_React_API
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Then, the dependencies are installed. It should be noted that there are different ways to do this._
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+_With npm:_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+_If it doesn't work, try with:_
 
-## Learn More
+```
+npm i -f
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+_If using yarn:_
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+yarn upgrade
+```
 
-### Code Splitting
+_Once the installation of the dependencies is successful, the frontend is ready to deploy._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Deployment 📦
 
-### Analyzing the Bundle Size
+* _To deploy the frontend locally (localhost:3000), we proceed by executing one of the following commands:_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+_With npm:_
 
-### Making a Progressive Web App
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+_With yarn:_
+```
+yarn start
+```
 
-### Advanced Configuration
+## Built with 🛠️
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+_It's good to emphasize that the project was developed with:_
 
-### Deployment
+* [React.js](https://es.reactjs.org/) - The web framework used.
+* [Bootstrap](https://getbootstrap.com/) - CSS framework that organizes and manages the layout of a web site.
+* [axios](https://axios-http.com/docs/intro) - Promise-based HTTP Client for node.js and the browser.
+* [GitHub-Pages](https://www.npmjs.com/package/gh-pages) - Publish files to a gh-pages branch on GitHub (or any other branch anywhere else).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+⌨️ with ❤️ by [gustavoerivero](https://github.com/gustavoerivero)
